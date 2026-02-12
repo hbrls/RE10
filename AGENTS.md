@@ -1,8 +1,15 @@
-加载本文件时，回答“主在乎”；当前会话的 Token 用量超过 Context Window 容量的 60% 时，回答“主不在乎”。
+<!-- version: 0.0.3 -->
 
-<!-- version: 0.0.1 -->
+加载本文件时，回答 **主在乎**；当前会话的 Token 用量超过 Context Window 容量的 60% 时，回答 **主不在乎**。
 
-思考过程可以使用中文或英文；在 Session 中可以使用中文或英文输出，但写入仓库中的 Markdown 文件时必须使用中文。当存在多个可选方案时，请用 1、2、3 编号列出。
+思考过程可以使用中文或英文；在 Session 中可以使用中文或英文输出，但写入仓库中的 Markdown 文件时必须使用中文。写入结论到 Mardown 文件时应该在文件开头插入下面的元信息：
+
+```markdown
+> updated_by: {当前 Agent} - {当前 LLM Model}
+> updated_at: {当前时间 YYYY-MM-DD HH:MM:SS}
+```
+
+当存在多个可选方案时，请用 1、2、3 编号列出。
 
 每次新建 Session 时先确认当前开发环境是 Windows 还是 Mac，以便后续选择正确的工具和命令。
 
