@@ -384,6 +384,7 @@ description: This skill should be used when performing comprehensive architectur
 
 ## 常见技术选型参考（References）
 
+-   Vue 3 + UniApp：见 `references/选型-vue3+uniapp.md`
 -   Vue 3 + Element Plus：见 `references/常用选型-vue3+elementplus.md`
 -   Vue 2 + iView：见 `references/常用选型-vue2-iview.md`
 -   Vue 2 + Vux + Webpack 3：见 `references/常用选型-vue2-vux-webpack3.md`
